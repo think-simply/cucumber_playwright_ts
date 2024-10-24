@@ -1,0 +1,5 @@
+{
+   "removeButton1": "#remove-sauce-labs-backpack",
+   "checkoutButton": "#checkout",
+   "cartQty": ".shopping_cart_badge"
+}

@@ -1,0 +1,844 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "homepage-functionality;1.verify-login-with-invalid-data:invalid-username-and-invalid-password",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "1.Verify Login with invalid data:invalid username and invalid password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 337251455
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to Login page",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 853131752
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User inputs data with \"Heath93\" and \"Heath93\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 243001747
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "\"Epic sadface: Username and password do not match any user in this service\" message will be displayed",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31565651
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 75046526
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@high",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;1.verify-login-with-invalid-data:empty-username",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "1.Verify Login with invalid data:empty username",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 125941424
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to Login page",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2235845626
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User inputs data with \"\" and \"Heath93\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 185079812
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "\"Epic sadface: Username is required\" message will be displayed",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12588192
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 97430906
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@high",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;1.verify-login-with-invalid-data:empty-password",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "1.Verify Login with invalid data:empty password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 127213784
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to Login page",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 565796434
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User inputs data with \"Heath93\" and \"\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 158619165
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "\"Epic sadface: Password is required\" message will be displayed",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13488556
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 68869128
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@high",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;2.verify-login-with-valid-data:correct-username-and-pass",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "2.Verify Login with valid data:correct username and pass",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 125035480
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to Login page",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 672450321
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User inputs data with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 212025136
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "User will nagivate to Inventory page",
+            "match": {
+              "location": "src/test/steps/inventoryStep.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12425168
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 84162599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@high",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;3.should-display-6-items-on-inventory-page",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "3.Should display 6 items on Inventory page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 111217287
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to Login page",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 789822115
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "User inputs data with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 264107312
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "User will nagivate to Inventory page",
+            "match": {
+              "location": "src/test/steps/inventoryStep.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12844362
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "There are 6 items on Inventory page",
+            "match": {
+              "location": "src/test/steps/inventoryStep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34453910
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 65734570
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@low",
+            "line": 26
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;4.user-should-be-able-to-add-item-to-cart",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "4.User should be able to add item to cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 129333435
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to Login page",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 953873325
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "User inputs data with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 175277407
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "User will nagivate to Inventory page",
+            "match": {
+              "location": "src/test/steps/inventoryStep.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17539158
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "User is able to add item to cart",
+            "match": {
+              "location": "src/test/steps/inventoryStep.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101636897
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 77551371
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@high",
+            "line": 36
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;5.cart-should-display-the-correct-number-of-added-item",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "5.Cart should display the correct number of added item",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 113379469
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to Login page",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 973802492
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "User inputs data with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 192192860
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "User add items to cart",
+            "match": {
+              "location": "src/test/steps/inventoryStep.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 240921737
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "cart should display the correct number of added item",
+            "match": {
+              "location": "src/test/steps/inventoryStep.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9150808
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 56572971
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@high",
+            "line": 46
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;6.should-display-the-correct-order-of-item-when-filter-is-set-to-price-low-to-high",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "6.Should display the correct order of item when filter is set to Price low to High",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 123984847
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to Login page",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 479261420
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 58,
+            "name": "User inputs data with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 219947748
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "User will nagivate to Inventory page",
+            "match": {
+              "location": "src/test/steps/inventoryStep.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14152036
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "Should display the correct order of item when filter is set to Price low to High",
+            "match": {
+              "location": "src/test/steps/inventoryStep.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 205940191
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 67363094
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@high",
+            "line": 56
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;7.should-display-the-correct-number-of-item-when-remove-item-from-cart",
+        "keyword": "Scenario",
+        "line": 75,
+        "name": "7.Should display the correct number of item when remove item from cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 119261577
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to Login page",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1991353863
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "User inputs data with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 200316948
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "User add items to cart",
+            "match": {
+              "location": "src/test/steps/inventoryStep.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 209858656
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "cart should display the correct number of added item",
+            "match": {
+              "location": "src/test/steps/inventoryStep.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12194808
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "should display the correct number of item when remove item from cart",
+            "match": {
+              "location": "src/test/steps/cartStep.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61276555
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 68438012
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@high",
+            "line": 66
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;8.should-display-the-correct-total-price-of-added-item-when-checking-out",
+        "keyword": "Scenario",
+        "line": 87,
+        "name": "8.Should display the correct total price of added item when checking out",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 118913605
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to Login page",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 737859563
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 79,
+            "name": "User inputs data with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 257412366
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "User add items to cart",
+            "match": {
+              "location": "src/test/steps/inventoryStep.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191585163
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 81,
+            "name": "User go to checkout page",
+            "match": {
+              "location": "src/test/steps/cartStep.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52469019
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 82,
+            "name": "User fill infor to checkout \"12\" \"12\" \"12\"",
+            "match": {
+              "location": "src/test/steps/checkoutStep.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150199765
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 83,
+            "name": "Should display the correct total price of added item",
+            "match": {
+              "location": "src/test/steps/checkoutStep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40690970
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 57835202
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@high",
+            "line": 77
+          },
+          {
+            "name": "@now",
+            "line": 77
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "homepage-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Homepage Functionality",
+    "tags": [],
+    "uri": "src/test/features/ecommerce.feature"
+  }
+]

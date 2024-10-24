@@ -1,0 +1,14 @@
+{
+    "hambugerButton": "#react-burger-menu-btn",
+    "productBox": ".inventory_item",
+    "addToCartButton1": "#add-to-cart-sauce-labs-backpack",
+    "addToCartButton2": "#add-to-cart-sauce-labs-bolt-t-shirt",
+    "afterAddToCart": "#remove-sauce-labs-backpack",
+    "productName": "Sauce Labs Backpack",
+    "cartIcon": "#shopping_cart_container",
+    "cartQty": ".shopping_cart_badge",
+    "sortIcon": ".select_container, .product_sort_container",
+    "filterDropdownProduct": ".select_container select, .product_sort_container select",
+    "lohiOption": "lohi",
+    "priceTag": ".inventory_item_price"
+  }

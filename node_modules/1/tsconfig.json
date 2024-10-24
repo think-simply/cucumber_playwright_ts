@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": ["es2022"],
+    "module": "node16",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "target": "es2022",
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+    "paths": {
+      "@sinonjs/fake-timers": ["./node_modules/@types/sinonjs__fake-timers"]
+    }
+  }
+}
